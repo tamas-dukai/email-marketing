@@ -1,0 +1,89 @@
+.auth-container {
+    min-height: 100vh;
+    background: linear-gradient(to top, #0e57a5cb, #068197db), url('../images/login-cover.jpeg') no-repeat top center;
+    background-size: cover;
+    margin-top: -30px;
+    padding-top: 50px;
+    margin-bottom: -30px;
+}
+
+.auth-form-wrapper {
+    background-color: rgb(18, 54, 69);
+    padding: 35px 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 90px;
+    margin-bottom: 30px;
+} 
+
+
+.auth-form-header-icon i {
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 35px;
+    line-height: 35px;
+}
+
+.auth-form-header-text h1 {
+    text-align: center;
+    color: white;
+}
+
+.auth-form-header-text p {
+    text-align: center;
+    color: white;
+}
+
+.auth-form-wrapper label {
+    color: white;
+}
+
+.not-member p {
+    color: white;
+}
+
+.submit-btn {
+    background-color: var(--link-color);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
+.submit-btn:hover {
+    background-color: var(--link-hover-color);
+    transition: all 0.3s ease;
+}
+
+.submit-btn .btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem
+}
+
+.auth-form hr {
+    border: 1px solid rgba(255,255,255, 0.6);
+}
+
+@media (max-width: 449.98px) { 
+    .bottom-options {
+        flex-direction: column;
+    }
+
+    .auth-form-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 98%;
+    }
+}
+
+@media (max-width: 991.98px) { 
+
+    .auth-form-wrapper {
+        max-width: 90%;
+        margin-top: 40px;
+    }
+}

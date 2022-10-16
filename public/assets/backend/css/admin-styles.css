@@ -1,0 +1,28 @@
+
+/* Sidebar active and menu hover bg 1005 wide */
+.sidebar-mini .main-sidebar .nav-link {
+    width: 100% !important;
+}
+
+.os-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.nav-sidebar>.nav-item .nav-icon.far {
+	font-size: 1rem;
+}
+
+.nav-sidebar>.nav-item .nav-icon.fa-angle-double-right {
+    font-size: 12px;
+}
+
+ul.nav-treeview p {
+    font-size: 14px;
+}
+
