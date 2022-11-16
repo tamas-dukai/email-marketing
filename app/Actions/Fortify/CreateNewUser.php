@@ -59,22 +59,6 @@ class CreateNewUser implements CreatesNewUsers
                 {
                     $isSubscribed = MailChimpHelper::subscribeToMailChimpList($input['name'], $input['email'], $errorMsg);
                 }
-                elseif($provider == $this->sendy)
-                {
-                    $isSubscribed = SendyHelper::subscribeSendyList($input['name'], $input['email'], $errorMsg);
-                }
-                elseif($provider == $this->convertkit)
-                {
-                    $isSubscribed = ConvertkitHelper::subscribeToConvertkitSequence($input['name'], $input['email'], $errorMsg);
-                }
-                elseif($provider == $this->sendInBlue)
-                {
-                    $isSubscribed = SendinblueHelper::subscribeToSendinblueList($input['name'], $input['email'], $errorMsg);
-                }
-                elseif($provider == $this->getresponse)
-                {
-                    $isSubscribed = GetresponseHelper::subscribeToGetresponseList($input['name'], $input['email'], $errorMsg);
-                }
             }
         }
 
