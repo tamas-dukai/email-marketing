@@ -64,7 +64,7 @@
             <div class="p-4">
               <h3 class="text-center">The Sendy integration is available in our premium course on Udemy!</h3>
               <p class="text-center">If you are interested, click the button below to check out the course! If you would like to purchase the course, contact us and we will send you a coupon with the lowest price. We appreciate your support. This helps us keep the lights on :)</p>
-              <p class="text-center"><a href="#" class="btn btn-info">Go to course!</a></p>
+              <p class="text-center"><a href="http://bit.ly/3tSkZZW" class="btn btn-info">Go to course!</a></p>
             </div>
           
 
